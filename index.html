@@ -5,37 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Style.CSS" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
-<title>Frontend Mentor | Stats preview card component</title>
-  </head >
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
 
   <body>
     <div class="container">
       <div class="card">
-        <picture>
-          <source media="(min-width:768px)" srcset="./image-header-desktop.jpg">
-          <img src="./image-header-mobile.jpg" alt="image-header-mobile">
-        </picture>
+        <div class="desc">
+          <h1 id="mainText">
+            Get <span>insights</span> that help your business grow.
+          </h1>
+          <p id="secondText">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+        </div>
+        <div class="Stats">
+          <div class="companies">
+            <div class="numbers">10k</div>
+            <div class="name">companies</div>
+          </div>
+
+          <div class="templates">
+            <div class="numbers">314</div>
+            <div class="name">templates</div>
+          </div>
+
+          <div class="queries">
+            <div class="numbers">12M+</div>
+            <div class="name">queries</div>
+          </div>
+        </div>
       </div>
-      <div class="desc">
-      <h1 id="mainText">Get <span>insights</span> that help your business grow.</h1>
-      <p id="secondText">
-        Discover the benefits of data analytics and make better decisions
-          regarding revenue, customer experience, and overall efficiency.
-      </p>
-      </div>
-    </div class="Stats">
-      <ul>
-          <li >10k+ companies</li>
-          <li>314 templates</li>
-          <li>12m+ queries</li>
-      </ul>
+      <div class="'card-image"></div>
     </div>
   </body>
 </html>
