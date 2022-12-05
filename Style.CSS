@@ -15,13 +15,23 @@ img {
   max-width: 100%;
 }
 ul {
+  color: white;
   list-style-type: none;
   text-align: center;
 }
-.body {
-  font-family: 'Lexend Deca' sans-serif;
+body {
+  font-family: 'Inter', sans-serif; 
+ 
   background-color: var(--Very-dark-blue);
+  
 }
+#mainText{
+  color: white;
+}
+#secondText{
+  color: var(--Slightly-transparent-white);
+}
+
 .container {
   background-color: var(--Dark-desaturated-blue);
   color: --var(--White);
@@ -39,6 +49,7 @@ ul {
 }
 p {
   font-size: 15px;
+  line-height: 1.6;
 }
 
 .container .card h1 {
@@ -57,4 +68,9 @@ p {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+@media (min-width: 768px) {
+  .container .picture {
+    height: auto;
+  
 }
