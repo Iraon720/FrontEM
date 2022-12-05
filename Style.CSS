@@ -1,3 +1,4 @@
+
 :root {
   --Very-dark-blue: hsl(233, 47%, 7%);
   --Dark-desaturated-blue: hsl(244, 38%, 16%);
@@ -10,31 +11,57 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 15px;
-  font-family: 'Inter', sans-serif;
 }
-.Stats {
-  font-family: 'Lexend Deca', sans-serif;
+
+body {
+  font-family: 'Inter', sans-serif;
+ font-family: 'Lexend Deca',sans-serif;
+ background-color: var(--Very-dark-blue);
 }
 .container {
-  width: 100vw;
+  border: 1px solid white;
   height: 100vh;
-  background: var(--Very-dark-blue);
-  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-#mainText {
+.card{
+  background-color: var(--Dark-desaturated-blue);
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  border-radius: 1rem;
+}
+.card-content {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+h1{
   color: white;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  line-height: 4.2rem;
+
 }
-#secondText {
+ .mobile{
+  display: none !important;
+ }
+
+
+#pText {
   color: var(--Slightly-transparent-white);
 }
-.name {
-  color: var(--Slightly-transparent-white);
+
+
+span{
+  font-size: 2rem;
+  font-weight: 700;
+color: var(--Soft--violet);
 }
+
+
 
 .attribution {
   font-size: 11px;
@@ -43,3 +70,4 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+@media (min-width: 375px) {
